@@ -1,0 +1,8 @@
+The text on the upper part of the graph shows the extreme (max or min) water level you can expect for the specified
+return period T - in other words, the probability of reaching that extreme in any given year is 1/T. Greater T
+means more conservative calculations. The calculations assume the data follows Gumbel distribution.
+As a hydrologist, you might not want to use the entire data series to predict extreme values, since the older
+data might not reflect the current conditions of the river. Therefore, choose the period for which you want to compute
+the expected extreme values and the calculations will update automatically.
+The plot shown above uses the manaus dataset, included in the boot package. It consists of a time series of
+surface water elevations of Negro River, in Manaus, Amazonas, Brazil.
